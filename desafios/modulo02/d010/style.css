@@ -1,0 +1,72 @@
+@charset "utf-8";
+
+@font-face {
+    font-family: 'Idroid';
+    src: url('./fontes/idroid.otf') format('opentype');
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #83e1ad;
+}
+
+.idroid {
+    font-family: "Idroid", sans-serif;
+    background: linear-gradient(90deg,#83e1ad, white);
+    color: #063d1e;
+}
+
+header > h1 {
+    font-family: 'Bebas Neue', sans-serif;
+    font-weight: lighter;
+}
+
+header {
+    background-color: #2fa866;
+    color: #c5ebd6;
+    text-align: center;
+}
+
+nav {
+    text-align: justify;
+    background-color: #2fa866;
+    
+}
+nav > a {
+    text-decoration: none;
+    color: whitesmoke;
+    padding: 10px;
+}
+
+main {
+    background-color: white;
+    min-width: 400px;
+    max-width: 800px;
+    margin: auto;
+    padding: 20px;
+}
+
+h2 {
+    font-family: "Idroid", sans-serif;
+    
+    color: #063d1e;
+}
+
+aside {
+    background-color: #83e1ad;
+    padding: 10px;
+}
+
+h3 {
+    background-color: #2fa866;
+    color: white;
+
+}
+
+ul {
+    list-style-type: '\2714\0020\0020';
+    columns: 2;
+    list-style-position: inside;
+}
