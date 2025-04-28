@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Estilos Externos / Internos</title>
+    <!--Esse link vai direto para o css. é como se eu importasse uma biblioteca em python-->
+    <link rel="stylesheet" href="style.css">
+    <!--misturando formatações: 
+    CSS local/interno:-->
+    <!--Essas formatações modificarão apenas a primeira página. É possível colocar mais um link css e importá-lo apenas nas páginas que for necessário-->
+    <style>
+        h1 {
+            text-decoration: underline;
+        }
+    </style>
+</head>
+<body>
+    <h1>Capítulo 1</h1>
+    <h2>Capítulo 1.1</h2>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nemo voluptates soluta sapiente earum, minus voluptatibus officiis velit explicabo quaerat quasi asperiores, excepturi in ducimus cumque quam vel, rerum consequatur voluptatem.</p>
+    <h2>Capítulo 1.2</h2>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Non odit veritatis sed vero deleniti in culpa harum, neque vitae! Fuga vitae tenetur vero voluptatem saepe laboriosam iusto ipsa amet repellat.</p>
+    <h1>Capítulo 2</h1>
+    <h2>Capítulo 2.1</h2>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Suscipit, ullam quos accusantium hic, error, possimus nostrum sapiente unde reiciendis eligendi exercitationem ratione distinctio nemo saepe! Architecto ducimus quisquam quaerat labore!</p>
+    <!--Estilo CSS inline-->
+    <p style="text-align: right;"><a href="pagina02.html" target="_self">Ir para a página 2</a></p>
+    <!--nas formatações de estilo CSS exixte uma ordem de precedência:
+    a página puxa 
+    1.º inline
+    2.º local/interno (definido no Head)
+    3.º Externo, importado pelo link CSS-->
+    
+</body>
+</html>

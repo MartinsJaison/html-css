@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fontes em CSS</title>
+    <style>
+        body {
+            font-family: Arial, Helvetica, sans-serif;
+            /*Medidas absolutas:
+            cm (centímetros), mm (milímetros), in(polegadas), px (pixel), pt (ponto), pc (paica)
+            
+            Medidas Relativas: 
+            em (medida relativa ao tamanho atual da fonte baseado no M maiúsculo), ex (relativo a altura x de uma fonte baseado no x minúsculo), rem (relativo ao root), vw (largura da view port - tamanho da tela), vh (altura da view port - tamanho da tela) e % (porcentagem) 
+            16px geralmente = 1 em*/
+            font-size: 1em;
+
+            /*lighter normal bold bolder*/
+
+        }
+
+        h1 {
+            /*font-family: 'Work Sans', sans-serif;
+            font-weight: bolder;
+            font-size: 3em;
+            font-style: italic;*/
+            /*shorthand font 
+            
+            - font-style -> font-weight -> font-size -> font-family 
+            estilo, peso, tamanho, família */
+            font: italic bolder 3em 'Work Sans', sans-serif
+        }
+
+        h2 {
+            font: bold 2em 'Work Sans', sans-serif
+        }
+
+        
+    </style>
+</head>
+<body>
+    <h1>Trabalhando com Fontes</h1>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nobis, quis veritatis quo maiores magnam quidem odit rerum quod, dicta sequi vitae accusamus reprehenderit obcaecati voluptas quam cupiditate alias quos. Similique? Lorem ipsum dolor, sit amet consectetur adipisicing elit. Debitis id harum aspernatur consequatur asperiores cum odit architecto iste vel. Animi quae labore ducimus tenetur illo tempora eos assumenda libero nulla? Lorem ipsum dolor sit amet consectetur adipisicing elit. Porro, voluptatibus inventore delectus vitae mollitia corrupti dolorem architecto dolores aspernatur repudiandae vero voluptas excepturi quia asperiores assumenda? Dicta repellendus quam quaerat!</p>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ea assumenda repellendus, maiores corrupti quam pariatur, quia voluptate obcaecati sequi delectus culpa ipsum provident debitis aut. Quibusdam praesentium nisi est obcaecati!</p>
+    <h2>Subtítulo do exercício</h2>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Temporibus debitis impedit minima voluptatem quasi laboriosam exercitationem laudantium, nobis iste voluptatum dolorem expedita sint autem est facilis odit dolor provident consequatur!</p>
+</body>
+</html>
